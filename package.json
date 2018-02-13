@@ -1,0 +1,27 @@
+{
+  "name": "dir-html-list",
+  "version": "0.0.1",
+  "description": "Get html filenames in current directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Balou9/dir-html-list.git"
+  },
+  "keywords": [
+    "dir",
+    "html",
+    "list"
+  ],
+  "author": "Emmanuel Owosekun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Balou9/dir-html-list/issues"
+  },
+  "homepage": "https://github.com/Balou9/dir-html-list/blob/master/readme.md",
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
