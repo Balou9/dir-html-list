@@ -4,6 +4,15 @@
 
 Get html file names in current directory
 
+# Usage
+
+      var dirHtmlList = require('dir-html-list')
+
+      dirHtmlList(process.cwd(), function (err, data) {
+        if (err) throw err
+        console.log(data)
+      })
+
 ## License
 
 [MIT](./license.md)

@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/Balou9/dir-html-list/blob/master/readme.md",
   "devDependencies": {
-    "tape": "^4.8.0"
+    "tape": "^4.9.0"
   }
 }

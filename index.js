@@ -1,17 +1,21 @@
 var fs = require('fs')
 var path = require('path')
-var dir = path.dirname('')
 
 function htmlCheck(file) {
   return /html$/.test(file)
 }
 
-function dirHtmlList(dir, callback){
-  fs.readdir(dir, function(err, files){
-    if (err) return console.error(err)
-    return files.filter(htmlCheck)
+/*
+  dir: String
+    directory to scan
+  callback: Function
+    signature: callback(err, data)
+*/
+function dirHtmlList (dir, callback) {
+  fs.readdir(dir, function (err, files) {
+    if (err) return callback(err)
+    callback(null, files.filter(htmlCheck))
   })
-  if (callback.error) return callback
 }
 
 module.exports = dirHtmlList
