@@ -4,7 +4,6 @@ var path = require('path')
 function htmlCheck(file) {
   return /html$/.test(file)
 }
-
 /*
   dir: String
     directory to scan
